@@ -1,0 +1,58 @@
+/*css reset*/ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Gord Quick';
+    src: url('../fonts/gordquick.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'PPTelegraf';
+    src: url('../fonts/PPTelegraf-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PPTelegraf';
+    src: url('../fonts/PPTelegraf-Ultrabold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PPTelegraf';
+    src: url('../fonts/PPTelegraf-RegularSlanted.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+body {
+    --color-primary: #264653;
+    --color-primary-cool: #2a9d8f;
+    --color-primary-hot: #e9c46a;
+    --color-primary-very-hot: #f4a261;
+    --color-primary-very-very-hot: #e76f51;
+}
+
+body {
+    font-family: 'PPTelegraf', 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.5;
+    color: var(--color-primary);
+    background-color: #fff;
+}
+
+
+h1 {
+    font-family: 'Gord Quick', 'Roboto', sans-serif;
+    font-size: 8rem;
+    font-weight: 400;
+    line-height: 1.2;
+    color: var(--color-primary-very-very-hot);
+}
